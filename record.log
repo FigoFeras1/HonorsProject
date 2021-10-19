@@ -1,0 +1,551 @@
+2021-09-08 10:42:56,145 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:42:59,694 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Sep/2021 10:42:59] "GET / HTTP/1.1" 200 -
+2021-09-08 10:43:13,704 INFO root Thread-4 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-08 10:43:13,906 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Sep/2021 10:43:13] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-08 10:43:14,303 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Sep/2021 10:43:14] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-08 10:43:14,303 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Sep/2021 10:43:14] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-08 10:43:14,325 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Sep/2021 10:43:14] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 10:43:14,393 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Sep/2021 10:43:14] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-08 10:43:14,440 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Sep/2021 10:43:14] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 10:44:07,006 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\analysis_utils.py', reloading
+2021-09-08 10:44:07,077 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:44:26,221 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:44:45,906 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\analysis_utils.py', reloading
+2021-09-08 10:44:46,010 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:44:58,260 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\analysis_utils.py', reloading
+2021-09-08 10:44:58,315 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:45:52,000 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:45:52,075 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:46:19,567 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:46:25,565 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:46:25,627 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:46:47,540 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:46:47,637 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:47:12,656 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:47:12,757 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:47:33,555 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:47:33,616 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:47:42,596 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:47:42,656 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:48:09,719 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:48:09,790 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:48:27,466 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:48:27,530 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:48:34,176 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:48:42,909 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:48:49,850 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:48:49,925 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:48:56,810 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-08 10:48:56,878 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:50:11,725 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 10:50:14,203 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Sep/2021 10:50:14] "GET / HTTP/1.1" 200 -
+2021-09-08 10:50:17,160 INFO root Thread-4 : <FileStorage: '' ('application/octet-stream')>
+2021-09-08 10:50:17,184 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Sep/2021 10:50:17] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-08 10:50:17,652 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Sep/2021 10:50:17] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-08 10:50:17,658 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Sep/2021 10:50:17] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-08 10:50:17,672 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Sep/2021 10:50:17] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 10:50:17,752 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Sep/2021 10:50:17] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-08 10:50:17,821 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Sep/2021 10:50:17] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 10:50:26,618 INFO root Thread-10 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-08 10:50:26,776 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Sep/2021 10:50:26] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-08 10:50:26,828 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Sep/2021 10:50:26] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-08 10:50:26,830 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Sep/2021 10:50:26] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-08 10:50:26,893 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Sep/2021 10:50:26] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 10:50:26,935 INFO werkzeug Thread-14 : 127.0.0.1 - - [08/Sep/2021 10:50:26] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-08 10:50:27,013 INFO werkzeug Thread-15 : 127.0.0.1 - - [08/Sep/2021 10:50:27] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 12:11:28,745 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 12:11:31,254 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Sep/2021 12:11:31] "GET / HTTP/1.1" 200 -
+2021-09-08 12:11:37,419 INFO root Thread-4 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-08 12:11:37,848 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Sep/2021 12:11:37] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-08 12:11:38,831 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Sep/2021 12:11:38] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-08 12:11:38,831 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Sep/2021 12:11:38] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-08 12:11:38,859 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Sep/2021 12:11:38] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 12:11:38,999 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Sep/2021 12:11:38] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-08 12:11:39,125 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Sep/2021 12:11:39] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 12:13:30,765 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-08 12:13:32,791 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Sep/2021 12:13:32] "GET / HTTP/1.1" 200 -
+2021-09-08 12:13:39,205 INFO root Thread-4 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-08 12:13:39,617 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Sep/2021 12:13:39] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-08 12:13:40,606 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Sep/2021 12:13:40] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-08 12:13:40,608 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Sep/2021 12:13:40] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-08 12:13:40,646 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Sep/2021 12:13:40] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-08 12:13:40,785 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Sep/2021 12:13:40] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-08 12:13:40,922 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Sep/2021 12:13:40] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 09:53:31,035 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-09 09:53:49,085 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 09:53:55,555 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Sep/2021 09:53:55] "GET / HTTP/1.1" 200 -
+2021-09-09 09:53:56,480 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Sep/2021 09:53:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 09:54:06,635 INFO root Thread-3 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-09 09:54:06,642 ERROR web_application Thread-3 : Exception on /temp [POST]
+Traceback (most recent call last):
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Feras\Desktop\HonorsProject\web_application\routes.py", line 45, in temp
+    data_file = parse_csv(file)
+  File "C:\Users\Feras\Desktop\HonorsProject\web_application\analysis_utils.py", line 24, in parse_csv
+    dataframe = pandas.DataFrame(pandas.read_csv(csv_file))
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas\_libs\parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2021-09-09 09:54:06,705 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 09:54:06] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 09:55:00,652 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 09:55:00] "GET / HTTP/1.1" 200 -
+2021-09-09 09:55:00,727 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 09:55:01,014 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 09:55:18,057 INFO root Thread-5 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-09 09:55:18,061 ERROR web_application Thread-5 : Exception on /temp [POST]
+Traceback (most recent call last):
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Feras\Desktop\HonorsProject\web_application\routes.py", line 45, in temp
+  File "C:\Users\Feras\Desktop\HonorsProject\web_application\analysis_utils.py", line 24, in parse_csv
+    dataframe = pandas.DataFrame(pandas.read_csv(csv_file))
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Feras\Desktop\HonorsProject\venv\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas\_libs\parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2021-09-09 09:55:18,063 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 09:55:18] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 09:57:26,116 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 09:57:28,385 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 09:57:28] "GET / HTTP/1.1" 200 -
+2021-09-09 09:57:29,673 INFO root Thread-4 : <FileStorage: '' ('application/octet-stream')>
+2021-09-09 09:57:29,726 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 09:57:29] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 09:57:30,623 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 09:57:30] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 09:57:30,623 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 09:57:30] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 09:57:30,695 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 09:57:30] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 09:57:30,879 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 09:57:30] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 09:57:30,983 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 09:57:30] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 09:57:38,318 INFO root Thread-10 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-09 09:57:38,731 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Sep/2021 09:57:38] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 09:57:38,845 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Sep/2021 09:57:38] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 09:57:38,847 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Sep/2021 09:57:38] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 09:57:38,947 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Sep/2021 09:57:38] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 09:57:39,089 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Sep/2021 09:57:39] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 09:57:39,179 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Sep/2021 09:57:39] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 09:58:46,978 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 09:58:53,940 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 09:58:53] "GET / HTTP/1.1" 200 -
+2021-09-09 09:58:59,197 INFO root Thread-4 : <FileStorage: 'CSV_CarData.csv' ('application/vnd.ms-excel')>
+2021-09-09 09:58:59,713 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 09:58:59] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 09:59:00,636 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 09:59:00] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 09:59:00,637 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 09:59:00] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 09:59:00,662 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 09:59:00] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 09:59:00,842 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 09:59:00] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 09:59:00,942 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 09:59:00] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:00:17,974 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:00:20,266 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:00:20] "GET / HTTP/1.1" 200 -
+2021-09-09 10:00:20,553 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:00:20,741 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:00:25,542 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:00:25] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 10:00:26,441 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:00:26] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:00:26,442 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:00:26] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:00:26,463 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:00:26] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:00:26,594 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:00:26] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:00:26,704 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:00:26] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:01:43,985 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\__init__.py', reloading
+2021-09-09 10:01:44,131 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:01:45,910 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:01:45] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 10:01:46,731 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:01:46] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:01:46,732 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:01:46] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:01:46,751 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:01:46] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:01:46,826 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:01:46] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:01:46,986 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:01:46] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:02:15,239 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\__init__.py', reloading
+2021-09-09 10:02:15,432 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:02:17,696 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:02:17] "[32mPOST /temp HTTP/1.1[0m" 302 -
+2021-09-09 10:02:17,758 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:02:17] "[35m[1mGET /temp?file=CSV_CarData.csv HTTP/1.1[0m" 500 -
+2021-09-09 10:02:18,551 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:02:18] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:02:18,551 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:02:18] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:02:18,575 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:02:18] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:02:18,641 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:02:18] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:02:18,815 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 10:02:18] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:03:36,729 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:03:39,049 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:03:39] "GET / HTTP/1.1" 200 -
+2021-09-09 10:03:44,352 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:03:44] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 10:03:45,293 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:03:45] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:03:45,293 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:03:45] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:03:45,320 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:03:45] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:03:45,443 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:03:45] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:03:45,557 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 10:03:45] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:05:34,464 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:05:34,599 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:09:18,335 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:09:20,615 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:09:20] "GET / HTTP/1.1" 200 -
+2021-09-09 10:09:26,189 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:09:26] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 10:09:27,125 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:09:27] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:09:27,125 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:09:27] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:09:27,146 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:09:27] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:09:27,283 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:09:27] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:09:27,386 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 10:09:27] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:10:21,223 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:10:23,849 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:10:23] "GET / HTTP/1.1" 200 -
+2021-09-09 10:10:30,181 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:10:30] "[35m[1mPOST /temp HTTP/1.1[0m" 500 -
+2021-09-09 10:10:31,091 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:10:31] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:10:31,092 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:10:31] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:10:31,111 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:10:31] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:10:31,228 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:10:31] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:10:31,345 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 10:10:31] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:20:29,374 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:20:33,244 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:20:33] "GET / HTTP/1.1" 200 -
+2021-09-09 10:20:38,162 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:20:38,207 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:20:38] "[32mPOST /temp HTTP/1.1[0m" 302 -
+2021-09-09 10:20:38,968 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:20:38] "[35m[1mGET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1[0m" 500 -
+2021-09-09 10:20:39,990 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:20:39] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 10:20:40,006 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 10:20:40] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 10:20:40,033 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 10:20:40] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:20:40,180 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 10:20:40] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 10:20:40,335 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Sep/2021 10:20:40] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 10:21:24,692 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:21:24,833 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:21:28,465 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:21:28] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:21:28,940 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:21:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 10:21:51,130 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:21:51] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:22:07,236 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:22:07] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:23:15,000 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:23:17,054 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:23:17] "GET / HTTP/1.1" 200 -
+2021-09-09 10:23:22,888 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:23:22,915 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:23:22] "[32mPOST /temp HTTP/1.1[0m" 302 -
+2021-09-09 10:23:22,932 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:23:22] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:23:39,594 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:23:43,144 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:23:43] "GET / HTTP/1.1" 200 -
+2021-09-09 10:23:44,025 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:23:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 10:23:48,200 INFO root Thread-5 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:23:48,241 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:23:48] "[32mPOST /temp HTTP/1.1[0m" 302 -
+2021-09-09 10:23:48,810 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:23:48] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:25:01,063 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:25:03,158 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:25:03] "GET / HTTP/1.1" 200 -
+2021-09-09 10:25:08,267 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:25:08,284 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:25:08] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 10:25:08,311 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:25:08] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:26:02,430 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:26:05,047 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:26:05] "GET / HTTP/1.1" 200 -
+2021-09-09 10:26:11,824 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:26:11,856 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:26:11] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 10:26:11,878 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:26:11] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:26:57,953 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:26:58,166 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:27:07,612 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:27:09,451 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:27:09] "GET / HTTP/1.1" 200 -
+2021-09-09 10:27:14,876 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:27:14,896 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:27:14] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 10:27:14,915 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:27:14] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:27:46,812 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:27:46] "GET / HTTP/1.1" 200 -
+2021-09-09 10:27:46,913 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:27:47,133 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:27:52,387 INFO root Thread-3 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:27:52,423 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:27:52] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 10:27:52,455 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:27:52] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:28:48,751 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:28:48,939 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:28:50,661 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:28:50] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:29:24,354 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:29:24] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:29:26,461 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:29:26] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:30:55,280 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 10:30:55,392 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:31:39,568 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:31:41,585 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:31:41] "GET /temp?file=+++++++﻿VIN+++++Year+++++++Make+++++++Model++Mileage++++Value++others%0A0++30316418.0+++2010.0+++++++Ford++++++Fusion++100%2C120+++3000.0+++++NaN%0A1++29908808.0+++2009.0++++++++GMC+++++Terrain+++98%2C200+++3200.0+++++NaN%0A2++31044627.0+++1999.0++++++Honda++++++Accord++120%2C500+++2000.0+++++NaN%0A3++31229473.0+++2020.0+++++Toyota++Highlander++++5%2C400++35000.0+++++NaN%0A4++30316733.0+++2011.0+++++Nissan++++++Altima+++90%2C230+++4000.0+++++NaN%0A5++31229478.0+++2018.0+++++++Ford+++++Mustang+++10%2C259++20000.0+++++NaN%0A6++30316422.0+++2000.0+++++Toyota++++++Tundra+++85%2C390+++4000.0+++++NaN%0A7++51229071.0++20012.0++Chevrolet++++++Malibu+++65%2C800+++3000.0+++++NaN HTTP/1.1" 200 -
+2021-09-09 10:31:57,020 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 10:32:00,879 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 10:32:00] "GET / HTTP/1.1" 200 -
+2021-09-09 10:32:06,229 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 10:32:06,236 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 10:32:06] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 10:32:06,356 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 10:32:06] "GET /temp?columns=%5B%27﻿VIN%27+%27Year%27+%27Make%27+%27Model%27+%27Mileage%27+%27Value%27+%27others%27%5D HTTP/1.1" 200 -
+2021-09-09 10:32:06,769 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 10:32:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 11:30:45,730 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:32:28,102 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:32:32,123 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 11:32:32] "GET / HTTP/1.1" 200 -
+2021-09-09 11:32:38,953 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:32:38,960 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 11:32:38] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 11:32:39,021 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 11:32:39] "GET /temp?columns=%5B%27﻿VIN%27+%27Year%27+%27Make%27+%27Model%27+%27Mileage%27+%27Value%27+%27others%27%5D HTTP/1.1" 200 -
+2021-09-09 11:32:39,403 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 11:32:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 11:33:04,474 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:33:06,542 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 11:33:06] "GET / HTTP/1.1" 200 -
+2021-09-09 11:33:12,254 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:33:12,254 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 11:33:12] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 11:33:12,344 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 11:33:12] "[35m[1mGET /temp?columns=%5B%27﻿VIN%27+%27Year%27+%27Make%27+%27Model%27+%27Mileage%27+%27Value%27+%27others%27%5D HTTP/1.1[0m" 500 -
+2021-09-09 11:33:13,325 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 11:33:13] "GET /temp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 11:33:13,325 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 11:33:13] "GET /temp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 11:33:13,352 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 11:33:13] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 11:33:13,494 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 11:33:13] "GET /temp?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 11:33:13,591 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Sep/2021 11:33:13] "GET /temp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 11:33:42,944 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:33:45,409 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 11:33:45] "GET / HTTP/1.1" 200 -
+2021-09-09 11:33:51,284 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:33:51,291 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 11:33:51] "[32mPOST /home HTTP/1.1[0m" 302 -
+2021-09-09 11:33:51,309 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 11:33:51] "GET /temp?columns=%5B%27﻿VIN%27+%27Year%27+%27Make%27+%27Model%27+%27Mileage%27+%27Value%27+%27others%27%5D HTTP/1.1" 200 -
+2021-09-09 11:53:53,154 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:53:57,244 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 11:53:57] "GET / HTTP/1.1" 200 -
+2021-09-09 11:53:58,509 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 11:53:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 11:54:20,026 INFO root Thread-5 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:54:20,036 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 11:54:20] "POST /home HTTP/1.1" 200 -
+2021-09-09 11:56:38,550 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:56:40,794 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 11:56:40] "GET / HTTP/1.1" 200 -
+2021-09-09 11:56:45,320 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:56:45,326 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:56:45,335 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 11:56:45] "POST /home HTTP/1.1" 200 -
+2021-09-09 11:58:12,859 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 11:58:15,207 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 11:58:15] "GET / HTTP/1.1" 200 -
+2021-09-09 11:58:26,560 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:58:26,561 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 11:58:26,569 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 11:58:26] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:00:22,283 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:00:30,022 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:00:30] "GET / HTTP/1.1" 200 -
+2021-09-09 12:00:36,312 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:00:36,321 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:00:36,353 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:00:36] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+2021-09-09 12:00:37,271 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:00:37] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 12:00:37,272 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 12:00:37] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 12:00:37,303 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 12:00:37] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:00:37,449 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 12:00:37] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 12:00:37,576 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 12:00:37] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:00:48,434 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 12:00:48,611 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:00:50,404 INFO root Thread-3 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:00:50,404 INFO root Thread-3 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:00:50,417 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:00:50] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:01:40,216 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:01:45,521 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:01:45] "GET / HTTP/1.1" 200 -
+2021-09-09 12:03:19,085 INFO root Thread-4 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:03:19,085 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:03:19] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:05:37,073 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:05:39,523 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:05:39] "GET / HTTP/1.1" 200 -
+2021-09-09 12:05:39,530 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:05:39] "GET / HTTP/1.1" 200 -
+2021-09-09 12:05:44,939 INFO root Thread-5 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:05:44,940 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:05:44] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:06:38,691 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:06:41,236 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:06:41] "GET / HTTP/1.1" 200 -
+2021-09-09 12:06:41,242 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:06:41] "GET / HTTP/1.1" 200 -
+2021-09-09 12:06:47,215 INFO root Thread-5 : COLUMNS: ['﻿VIN' 'Year' 'Make' 'Model' 'Mileage' 'Value' 'others']
+2021-09-09 12:06:47,221 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:06:47] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:07:48,421 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 12:07:48,594 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:10:10,469 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:10:14,790 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:10:14] "GET / HTTP/1.1" 200 -
+2021-09-09 12:10:19,980 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:10:19] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+2021-09-09 12:10:20,916 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 12:10:20] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 12:10:20,917 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:10:20] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 12:10:20,940 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 12:10:20] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:10:21,075 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 12:10:21] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 12:10:21,198 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 12:10:21] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:10:29,560 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-09 12:10:29,729 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:10:31,627 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:10:31] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:11:16,737 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\analysis_utils.py', reloading
+2021-09-09 12:11:16,914 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:11:18,825 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:11:18] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:11:29,737 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:11:31,982 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:11:31] "GET / HTTP/1.1" 200 -
+2021-09-09 12:11:31,988 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:11:31] "GET / HTTP/1.1" 200 -
+2021-09-09 12:11:37,313 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:11:37] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:12:08,991 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:12:11,329 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:12:11] "GET / HTTP/1.1" 200 -
+2021-09-09 12:12:11,339 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:12:11] "GET / HTTP/1.1" 200 -
+2021-09-09 12:12:22,578 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:12:22] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:13:12,854 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:13:15,017 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:13:15] "GET / HTTP/1.1" 200 -
+2021-09-09 12:13:15,024 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:13:15] "GET / HTTP/1.1" 200 -
+2021-09-09 12:13:20,018 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:13:20] "POST /home HTTP/1.1" 200 -
+2021-09-09 12:14:34,253 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\analysis_utils.py', reloading
+2021-09-09 12:14:34,387 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:14:53,590 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:14:55,814 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:14:55] "GET / HTTP/1.1" 200 -
+2021-09-09 12:14:55,830 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:14:55] "GET / HTTP/1.1" 200 -
+2021-09-09 12:15:01,067 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:15:01] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+2021-09-09 12:15:01,920 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 12:15:01] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 12:15:01,920 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 12:15:01] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 12:15:01,944 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 12:15:01] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:15:02,059 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 12:15:02] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 12:15:02,181 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Sep/2021 12:15:02] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:31:44,882 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:31:53,462 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:31:53] "GET / HTTP/1.1" 200 -
+2021-09-09 12:31:53,488 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:31:53] "GET / HTTP/1.1" 200 -
+2021-09-09 12:31:54,440 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:31:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-09 12:32:01,931 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 12:32:01] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+2021-09-09 12:32:02,947 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 12:32:02] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 12:32:02,948 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 12:32:02] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 12:32:02,977 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 12:32:02] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:32:03,223 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Sep/2021 12:32:03] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 12:32:03,309 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Sep/2021 12:32:03] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:37:10,925 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-09 12:37:13,502 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Sep/2021 12:37:13] "GET / HTTP/1.1" 200 -
+2021-09-09 12:37:13,508 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Sep/2021 12:37:13] "GET / HTTP/1.1" 200 -
+2021-09-09 12:37:19,873 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Sep/2021 12:37:19] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+2021-09-09 12:37:20,821 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Sep/2021 12:37:20] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-09 12:37:20,822 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Sep/2021 12:37:20] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-09 12:37:20,851 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Sep/2021 12:37:20] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-09 12:37:21,002 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Sep/2021 12:37:21] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-09 12:37:21,107 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Sep/2021 12:37:21] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-12 00:27:44,519 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-12 00:27:49,435 INFO werkzeug Thread-3 : 127.0.0.1 - - [12/Sep/2021 00:27:49] "GET / HTTP/1.1" 200 -
+2021-09-12 00:27:49,451 INFO werkzeug Thread-4 : 127.0.0.1 - - [12/Sep/2021 00:27:49] "GET / HTTP/1.1" 200 -
+2021-09-12 00:27:50,153 INFO werkzeug Thread-5 : 127.0.0.1 - - [12/Sep/2021 00:27:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-12 00:27:50,164 INFO werkzeug Thread-6 : 127.0.0.1 - - [12/Sep/2021 00:27:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-12 00:27:58,518 INFO werkzeug Thread-7 : 127.0.0.1 - - [12/Sep/2021 00:27:58] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+2021-09-12 00:27:59,159 INFO werkzeug Thread-8 : 127.0.0.1 - - [12/Sep/2021 00:27:59] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-12 00:27:59,159 INFO werkzeug Thread-9 : 127.0.0.1 - - [12/Sep/2021 00:27:59] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-12 00:27:59,180 INFO werkzeug Thread-10 : 127.0.0.1 - - [12/Sep/2021 00:27:59] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-12 00:27:59,308 INFO werkzeug Thread-11 : 127.0.0.1 - - [12/Sep/2021 00:27:59] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-12 00:27:59,506 INFO werkzeug Thread-12 : 127.0.0.1 - - [12/Sep/2021 00:27:59] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-12 00:35:53,826 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-12 00:35:55,822 INFO werkzeug Thread-3 : 127.0.0.1 - - [12/Sep/2021 00:35:55] "GET / HTTP/1.1" 200 -
+2021-09-12 00:36:01,524 INFO werkzeug Thread-4 : 127.0.0.1 - - [12/Sep/2021 00:36:01] "POST /home HTTP/1.1" 200 -
+2021-09-12 00:41:53,107 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-12 00:41:53,315 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-12 00:43:55,308 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-12 00:43:55,462 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-12 00:44:54,462 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-12 00:44:54,597 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-14 11:09:47,438 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-14 11:09:50,394 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Sep/2021 11:09:50] "GET / HTTP/1.1" 200 -
+2021-09-14 11:09:50,399 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Sep/2021 11:09:50] "GET / HTTP/1.1" 200 -
+2021-09-14 11:09:51,083 INFO werkzeug Thread-5 : 127.0.0.1 - - [14/Sep/2021 11:09:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 11:10:05,427 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Sep/2021 11:10:05] "POST /home HTTP/1.1" 200 -
+2021-09-14 12:27:25,735 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-14 12:27:33,761 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Sep/2021 12:27:33] "GET / HTTP/1.1" 200 -
+2021-09-14 12:27:40,306 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Sep/2021 12:27:40] "POST /home HTTP/1.1" 200 -
+2021-09-14 12:43:24,026 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-15 00:18:19,314 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-15 00:18:23,519 INFO werkzeug Thread-3 : 127.0.0.1 - - [15/Sep/2021 00:18:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-09-15 00:18:23,944 INFO werkzeug Thread-4 : 127.0.0.1 - - [15/Sep/2021 00:18:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-15 00:18:23,944 INFO werkzeug Thread-5 : 127.0.0.1 - - [15/Sep/2021 00:18:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-15 00:18:23,958 INFO werkzeug Thread-6 : 127.0.0.1 - - [15/Sep/2021 00:18:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 00:18:24,049 INFO werkzeug Thread-7 : 127.0.0.1 - - [15/Sep/2021 00:18:24] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-15 00:18:24,145 INFO werkzeug Thread-8 : 127.0.0.1 - - [15/Sep/2021 00:18:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 00:18:33,905 INFO werkzeug Thread-9 : 127.0.0.1 - - [15/Sep/2021 00:18:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-09-15 00:18:33,947 INFO werkzeug Thread-10 : 127.0.0.1 - - [15/Sep/2021 00:18:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-15 00:18:33,948 INFO werkzeug Thread-11 : 127.0.0.1 - - [15/Sep/2021 00:18:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-15 00:18:33,997 INFO werkzeug Thread-12 : 127.0.0.1 - - [15/Sep/2021 00:18:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 00:18:34,037 INFO werkzeug Thread-13 : 127.0.0.1 - - [15/Sep/2021 00:18:34] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-09-15 00:18:34,090 INFO werkzeug Thread-14 : 127.0.0.1 - - [15/Sep/2021 00:18:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 00:19:18,169 INFO werkzeug Thread-15 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "GET / HTTP/1.1" 200 -
+2021-09-15 00:19:18,226 INFO werkzeug Thread-16 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 404 -
+2021-09-15 00:19:18,228 INFO werkzeug Thread-17 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /static/content/site.css HTTP/1.1[0m" 404 -
+2021-09-15 00:19:18,230 INFO werkzeug Thread-18 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 404 -
+2021-09-15 00:19:18,233 INFO werkzeug Thread-19 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 404 -
+2021-09-15 00:19:18,238 INFO werkzeug Thread-20 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 404 -
+2021-09-15 00:19:18,239 INFO werkzeug Thread-21 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /static/scripts/respond.js HTTP/1.1[0m" 404 -
+2021-09-15 00:19:18,480 INFO werkzeug Thread-22 : 127.0.0.1 - - [15/Sep/2021 00:19:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-15 00:22:41,401 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-15 00:22:41,531 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-15 00:23:08,738 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\routes.py', reloading
+2021-09-15 00:23:08,808 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-15 00:24:13,981 INFO werkzeug Thread-3 : 127.0.0.1 - - [15/Sep/2021 00:24:13] "GET / HTTP/1.1" 200 -
+2021-09-15 00:25:26,806 INFO werkzeug Thread-4 : 127.0.0.1 - - [15/Sep/2021 00:25:26] "GET / HTTP/1.1" 200 -
+2021-09-15 00:25:37,112 INFO werkzeug Thread-5 : 127.0.0.1 - - [15/Sep/2021 00:25:37] "GET / HTTP/1.1" 200 -
+2021-09-15 00:26:46,431 INFO werkzeug Thread-6 : 127.0.0.1 - - [15/Sep/2021 00:26:46] "GET / HTTP/1.1" 200 -
+2021-09-15 00:27:40,142 INFO werkzeug Thread-7 : 127.0.0.1 - - [15/Sep/2021 00:27:40] "GET / HTTP/1.1" 200 -
+2021-09-15 00:27:56,796 INFO werkzeug Thread-8 : 127.0.0.1 - - [15/Sep/2021 00:27:56] "GET / HTTP/1.1" 200 -
+2021-09-15 00:27:58,642 INFO werkzeug Thread-9 : 127.0.0.1 - - [15/Sep/2021 00:27:58] "GET / HTTP/1.1" 200 -
+2021-09-15 00:30:54,400 INFO werkzeug Thread-10 : 127.0.0.1 - - [15/Sep/2021 00:30:54] "GET / HTTP/1.1" 200 -
+2021-09-15 00:39:58,611 INFO werkzeug Thread-11 : 127.0.0.1 - - [15/Sep/2021 00:39:58] "GET / HTTP/1.1" 200 -
+2021-09-15 00:39:58,874 INFO werkzeug Thread-12 : 127.0.0.1 - - [15/Sep/2021 00:39:58] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:42:32,585 INFO werkzeug Thread-13 : 127.0.0.1 - - [15/Sep/2021 00:42:32] "GET / HTTP/1.1" 200 -
+2021-09-15 00:42:32,631 INFO werkzeug Thread-14 : 127.0.0.1 - - [15/Sep/2021 00:42:32] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:42:37,862 INFO werkzeug Thread-15 : 127.0.0.1 - - [15/Sep/2021 00:42:37] "GET / HTTP/1.1" 200 -
+2021-09-15 00:42:37,916 INFO werkzeug Thread-16 : 127.0.0.1 - - [15/Sep/2021 00:42:37] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:42:42,500 INFO werkzeug Thread-17 : 127.0.0.1 - - [15/Sep/2021 00:42:42] "GET / HTTP/1.1" 200 -
+2021-09-15 00:42:42,550 INFO werkzeug Thread-18 : 127.0.0.1 - - [15/Sep/2021 00:42:42] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:42:49,758 INFO werkzeug Thread-19 : 127.0.0.1 - - [15/Sep/2021 00:42:49] "GET / HTTP/1.1" 200 -
+2021-09-15 00:42:49,799 INFO werkzeug Thread-20 : 127.0.0.1 - - [15/Sep/2021 00:42:49] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:42:58,730 INFO werkzeug Thread-21 : 127.0.0.1 - - [15/Sep/2021 00:42:58] "GET / HTTP/1.1" 200 -
+2021-09-15 00:42:58,804 INFO werkzeug Thread-22 : 127.0.0.1 - - [15/Sep/2021 00:42:58] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:43:05,042 INFO werkzeug Thread-23 : 127.0.0.1 - - [15/Sep/2021 00:43:05] "GET / HTTP/1.1" 200 -
+2021-09-15 00:43:05,083 INFO werkzeug Thread-24 : 127.0.0.1 - - [15/Sep/2021 00:43:05] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:43:14,474 INFO werkzeug Thread-25 : 127.0.0.1 - - [15/Sep/2021 00:43:14] "GET / HTTP/1.1" 200 -
+2021-09-15 00:43:14,528 INFO werkzeug Thread-26 : 127.0.0.1 - - [15/Sep/2021 00:43:14] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:43:22,297 INFO werkzeug Thread-27 : 127.0.0.1 - - [15/Sep/2021 00:43:22] "GET / HTTP/1.1" 200 -
+2021-09-15 00:43:22,345 INFO werkzeug Thread-28 : 127.0.0.1 - - [15/Sep/2021 00:43:22] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:43:29,063 INFO werkzeug Thread-29 : 127.0.0.1 - - [15/Sep/2021 00:43:29] "GET / HTTP/1.1" 200 -
+2021-09-15 00:43:29,109 INFO werkzeug Thread-30 : 127.0.0.1 - - [15/Sep/2021 00:43:29] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:43:34,876 INFO werkzeug Thread-31 : 127.0.0.1 - - [15/Sep/2021 00:43:34] "GET / HTTP/1.1" 200 -
+2021-09-15 00:43:34,916 INFO werkzeug Thread-32 : 127.0.0.1 - - [15/Sep/2021 00:43:34] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:44:04,140 INFO werkzeug Thread-33 : 127.0.0.1 - - [15/Sep/2021 00:44:04] "GET / HTTP/1.1" 200 -
+2021-09-15 00:44:04,196 INFO werkzeug Thread-34 : 127.0.0.1 - - [15/Sep/2021 00:44:04] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:44:20,686 INFO werkzeug Thread-35 : 127.0.0.1 - - [15/Sep/2021 00:44:20] "GET / HTTP/1.1" 200 -
+2021-09-15 00:44:20,730 INFO werkzeug Thread-36 : 127.0.0.1 - - [15/Sep/2021 00:44:20] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 00:44:28,433 INFO werkzeug Thread-37 : 127.0.0.1 - - [15/Sep/2021 00:44:28] "GET / HTTP/1.1" 200 -
+2021-09-15 00:44:28,477 INFO werkzeug Thread-38 : 127.0.0.1 - - [15/Sep/2021 00:44:28] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:40:18,281 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-15 07:40:23,374 INFO werkzeug Thread-3 : 127.0.0.1 - - [15/Sep/2021 07:40:23] "GET / HTTP/1.1" 200 -
+2021-09-15 07:40:24,600 INFO werkzeug Thread-4 : 127.0.0.1 - - [15/Sep/2021 07:40:24] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:40:25,002 INFO werkzeug Thread-5 : 127.0.0.1 - - [15/Sep/2021 07:40:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-15 07:40:44,794 INFO werkzeug Thread-6 : 127.0.0.1 - - [15/Sep/2021 07:40:44] "GET / HTTP/1.1" 200 -
+2021-09-15 07:40:45,064 INFO werkzeug Thread-7 : 127.0.0.1 - - [15/Sep/2021 07:40:45] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:41:04,592 INFO werkzeug Thread-8 : 127.0.0.1 - - [15/Sep/2021 07:41:04] "GET / HTTP/1.1" 200 -
+2021-09-15 07:41:04,713 INFO werkzeug Thread-9 : 127.0.0.1 - - [15/Sep/2021 07:41:04] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:41:42,575 INFO werkzeug Thread-10 : 127.0.0.1 - - [15/Sep/2021 07:41:42] "GET / HTTP/1.1" 200 -
+2021-09-15 07:41:42,747 INFO werkzeug Thread-11 : 127.0.0.1 - - [15/Sep/2021 07:41:42] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:41:53,067 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-15 07:41:57,052 INFO werkzeug Thread-3 : 127.0.0.1 - - [15/Sep/2021 07:41:57] "GET / HTTP/1.1" 200 -
+2021-09-15 07:41:58,235 INFO werkzeug Thread-4 : 127.0.0.1 - - [15/Sep/2021 07:41:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-09-15 07:42:07,851 INFO werkzeug Thread-5 : 127.0.0.1 - - [15/Sep/2021 07:42:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-15 07:42:37,194 INFO werkzeug Thread-6 : 127.0.0.1 - - [15/Sep/2021 07:42:37] "GET / HTTP/1.1" 200 -
+2021-09-15 07:42:37,323 INFO werkzeug Thread-7 : 127.0.0.1 - - [15/Sep/2021 07:42:37] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:42:52,959 INFO werkzeug Thread-8 : 127.0.0.1 - - [15/Sep/2021 07:42:52] "GET / HTTP/1.1" 200 -
+2021-09-15 07:42:53,078 INFO werkzeug Thread-9 : 127.0.0.1 - - [15/Sep/2021 07:42:53] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:44:13,030 INFO werkzeug Thread-10 : 127.0.0.1 - - [15/Sep/2021 07:44:13] "GET / HTTP/1.1" 200 -
+2021-09-15 07:44:13,186 INFO werkzeug Thread-11 : 127.0.0.1 - - [15/Sep/2021 07:44:13] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:44:35,956 INFO werkzeug Thread-12 : 127.0.0.1 - - [15/Sep/2021 07:44:35] "GET / HTTP/1.1" 200 -
+2021-09-15 07:44:36,071 INFO werkzeug Thread-13 : 127.0.0.1 - - [15/Sep/2021 07:44:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-09-15 07:44:54,973 INFO werkzeug Thread-14 : 127.0.0.1 - - [15/Sep/2021 07:44:54] "GET / HTTP/1.1" 200 -
+2021-09-15 07:44:55,088 INFO werkzeug Thread-15 : 127.0.0.1 - - [15/Sep/2021 07:44:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-09-15 07:46:20,532 INFO werkzeug Thread-16 : 127.0.0.1 - - [15/Sep/2021 07:46:20] "GET / HTTP/1.1" 200 -
+2021-09-15 07:46:20,752 INFO werkzeug Thread-17 : 127.0.0.1 - - [15/Sep/2021 07:46:20] "GET /static/style.css HTTP/1.1" 200 -
+2021-09-15 07:48:18,943 INFO werkzeug Thread-18 : 127.0.0.1 - - [15/Sep/2021 07:48:18] "GET / HTTP/1.1" 200 -
+2021-09-15 07:48:19,066 INFO werkzeug Thread-19 : 127.0.0.1 - - [15/Sep/2021 07:48:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-09-15 07:48:31,759 INFO werkzeug Thread-20 : 127.0.0.1 - - [15/Sep/2021 07:48:31] "GET / HTTP/1.1" 200 -
+2021-09-15 07:50:19,939 INFO werkzeug Thread-21 : 127.0.0.1 - - [15/Sep/2021 07:50:19] "GET / HTTP/1.1" 200 -
+2021-09-15 07:52:37,532 INFO werkzeug Thread-22 : 127.0.0.1 - - [15/Sep/2021 07:52:37] "GET / HTTP/1.1" 200 -
+2021-09-15 07:55:09,391 INFO werkzeug Thread-23 : 127.0.0.1 - - [15/Sep/2021 07:55:09] "GET / HTTP/1.1" 200 -
+2021-09-15 07:56:16,472 INFO werkzeug Thread-24 : 127.0.0.1 - - [15/Sep/2021 07:56:16] "GET / HTTP/1.1" 200 -
+2021-09-15 07:56:24,725 INFO werkzeug Thread-25 : 127.0.0.1 - - [15/Sep/2021 07:56:24] "GET / HTTP/1.1" 200 -
+2021-09-15 07:56:49,194 INFO werkzeug Thread-26 : 127.0.0.1 - - [15/Sep/2021 07:56:49] "GET / HTTP/1.1" 200 -
+2021-09-15 07:58:28,949 INFO werkzeug Thread-27 : 127.0.0.1 - - [15/Sep/2021 07:58:28] "GET / HTTP/1.1" 200 -
+2021-09-15 07:58:48,845 INFO werkzeug Thread-28 : 127.0.0.1 - - [15/Sep/2021 07:58:48] "GET / HTTP/1.1" 200 -
+2021-09-15 07:59:22,636 INFO werkzeug Thread-29 : 127.0.0.1 - - [15/Sep/2021 07:59:22] "GET / HTTP/1.1" 200 -
+2021-09-15 07:59:27,961 INFO werkzeug Thread-30 : 127.0.0.1 - - [15/Sep/2021 07:59:27] "GET / HTTP/1.1" 200 -
+2021-09-15 08:00:14,630 INFO werkzeug Thread-31 : 127.0.0.1 - - [15/Sep/2021 08:00:14] "GET / HTTP/1.1" 200 -
+2021-09-15 08:00:16,160 INFO werkzeug Thread-32 : 127.0.0.1 - - [15/Sep/2021 08:00:16] "GET / HTTP/1.1" 200 -
+2021-09-15 08:00:21,572 INFO werkzeug Thread-33 : 127.0.0.1 - - [15/Sep/2021 08:00:21] "GET / HTTP/1.1" 200 -
+2021-09-15 08:00:22,875 INFO werkzeug Thread-34 : 127.0.0.1 - - [15/Sep/2021 08:00:22] "GET / HTTP/1.1" 200 -
+2021-09-15 08:00:28,405 INFO werkzeug Thread-35 : 127.0.0.1 - - [15/Sep/2021 08:00:28] "GET / HTTP/1.1" 200 -
+2021-09-15 08:00:35,741 INFO werkzeug Thread-36 : 127.0.0.1 - - [15/Sep/2021 08:00:35] "GET / HTTP/1.1" 200 -
+2021-09-15 08:04:38,684 INFO werkzeug Thread-37 : 127.0.0.1 - - [15/Sep/2021 08:04:38] "GET / HTTP/1.1" 200 -
+2021-09-23 11:40:46,388 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-23 11:40:50,693 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/Sep/2021 11:40:50] "GET / HTTP/1.1" 200 -
+2021-09-23 11:40:51,938 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/Sep/2021 11:40:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-04 11:38:47,615 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-04 11:38:54,019 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-04 11:39:23,732 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\statistic_controller.py', reloading
+2021-10-04 11:39:23,833 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-04 11:40:02,966 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Feras\\Desktop\\HonorsProject\\web_application\\statistic_controller.py', reloading
+2021-10-04 11:40:03,063 INFO werkzeug MainThread :  * Restarting with stat
