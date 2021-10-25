@@ -66,7 +66,7 @@ def find_list(list_contents: str):
 
 
 def main():
-    file_path = '../CSV_CarData.csv'
+    file_path = '.\\uploads\\upload_CSV_CarData.csv'
     data_array = parse_csv(file_path)
     arr = get_numpy_array(data_array)
     # print(arr['VIN'][3])

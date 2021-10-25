@@ -1,8 +1,9 @@
+
 import numpy
 import pandas
 from operation_tests import test_get_min
 
-csv_file = 'C:\\Users\\Feras\\Desktop\\HonorsProject\\testing\\MOCK_DATA1.csv'
+csv_file = '\\MOCK_DATA1.csv'
 
 
 def parse_csv(csv):
