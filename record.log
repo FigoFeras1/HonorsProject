@@ -646,3 +646,123 @@ pandas.errors.EmptyDataError: No columns to parse from file
 2021-10-25 12:06:12,180 INFO werkzeug Thread-4 : 127.0.0.1 - - [25/Oct/2021 12:06:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2021-10-25 12:07:02,291 INFO werkzeug MainThread :  * Restarting with stat
 2021-10-25 12:07:05,056 INFO werkzeug Thread-3 : 127.0.0.1 - - [25/Oct/2021 12:07:05] "GET / HTTP/1.1" 200 -
+2021-10-26 12:28:56,275 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:29:01,665 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:29:01] "GET / HTTP/1.1" 200 -
+2021-10-26 12:29:09,430 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:29:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:29:29,222 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:29:29] "GET / HTTP/1.1" 200 -
+2021-10-26 12:29:37,486 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:29:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:31:02,540 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:31:06,461 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:31:06] "GET / HTTP/1.1" 200 -
+2021-10-26 12:31:07,507 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:31:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:31:19,092 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:31:19] "GET / HTTP/1.1" 200 -
+2021-10-26 12:32:27,165 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:32:27] "GET / HTTP/1.1" 200 -
+2021-10-26 12:33:04,533 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 12:33:04] "GET / HTTP/1.1" 200 -
+2021-10-26 12:33:54,750 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Oct/2021 12:33:54] "GET / HTTP/1.1" 200 -
+2021-10-26 12:34:14,430 INFO werkzeug Thread-9 : 127.0.0.1 - - [26/Oct/2021 12:34:14] "GET / HTTP/1.1" 200 -
+2021-10-26 12:34:33,647 INFO werkzeug Thread-10 : 127.0.0.1 - - [26/Oct/2021 12:34:33] "GET / HTTP/1.1" 200 -
+2021-10-26 12:35:21,201 INFO werkzeug Thread-11 : 127.0.0.1 - - [26/Oct/2021 12:35:21] "GET / HTTP/1.1" 200 -
+2021-10-26 12:35:52,829 INFO werkzeug Thread-12 : 127.0.0.1 - - [26/Oct/2021 12:35:52] "GET / HTTP/1.1" 200 -
+2021-10-26 12:36:50,872 INFO werkzeug Thread-13 : 127.0.0.1 - - [26/Oct/2021 12:36:50] "GET / HTTP/1.1" 200 -
+2021-10-26 12:37:49,228 INFO werkzeug Thread-14 : 127.0.0.1 - - [26/Oct/2021 12:37:49] "GET / HTTP/1.1" 200 -
+2021-10-26 12:37:50,644 INFO werkzeug Thread-15 : 127.0.0.1 - - [26/Oct/2021 12:37:50] "GET / HTTP/1.1" 200 -
+2021-10-26 12:38:03,038 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:38:05,276 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:38:05] "GET / HTTP/1.1" 200 -
+2021-10-26 12:38:33,365 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:38:33] "GET / HTTP/1.1" 200 -
+2021-10-26 12:38:43,885 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:38:49,338 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:38:49] "GET / HTTP/1.1" 200 -
+2021-10-26 12:38:50,424 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:38:50] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:38:56,525 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:38:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:39:11,524 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:39:11] "GET / HTTP/1.1" 200 -
+2021-10-26 12:39:11,738 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 12:39:11] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:42:55,448 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:42:59,606 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:42:59] "GET / HTTP/1.1" 200 -
+2021-10-26 12:43:00,216 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:43:00] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:43:27,645 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:43:27] "GET / HTTP/1.1" 200 -
+2021-10-26 12:43:27,714 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:43:27] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:43:30,491 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 12:43:30] "GET / HTTP/1.1" 200 -
+2021-10-26 12:43:30,587 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Oct/2021 12:43:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:43:39,903 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:43:42,217 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:43:42] "GET / HTTP/1.1" 200 -
+2021-10-26 12:43:42,809 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:43:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:44:24,026 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:44:24] "GET / HTTP/1.1" 200 -
+2021-10-26 12:44:24,415 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:44:24] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:44:25,207 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 12:44:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:44:48,959 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Oct/2021 12:44:48] "GET / HTTP/1.1" 200 -
+2021-10-26 12:44:49,159 INFO werkzeug Thread-9 : 127.0.0.1 - - [26/Oct/2021 12:44:49] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:46:01,757 INFO werkzeug Thread-10 : 127.0.0.1 - - [26/Oct/2021 12:46:01] "GET / HTTP/1.1" 200 -
+2021-10-26 12:46:21,401 INFO werkzeug Thread-11 : 127.0.0.1 - - [26/Oct/2021 12:46:21] "GET / HTTP/1.1" 200 -
+2021-10-26 12:46:21,528 INFO werkzeug Thread-12 : 127.0.0.1 - - [26/Oct/2021 12:46:21] "GET /static/style.css HTTP/1.1" 200 -
+2021-10-26 12:48:04,228 INFO werkzeug Thread-13 : 127.0.0.1 - - [26/Oct/2021 12:48:04] "GET / HTTP/1.1" 200 -
+2021-10-26 12:48:04,327 INFO werkzeug Thread-14 : 127.0.0.1 - - [26/Oct/2021 12:48:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:48:12,777 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:48:14,789 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:48:14] "GET / HTTP/1.1" 200 -
+2021-10-26 12:48:15,357 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:48:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:48:35,073 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:48:40,112 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:48:40] "GET / HTTP/1.1" 200 -
+2021-10-26 12:48:41,355 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:48:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:48:41,884 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:48:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:48:50,348 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:48:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:49:17,713 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 12:49:17] "GET / HTTP/1.1" 200 -
+2021-10-26 12:49:17,894 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Oct/2021 12:49:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:49:23,966 INFO werkzeug Thread-9 : 127.0.0.1 - - [26/Oct/2021 12:49:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:49:39,756 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:49:43,373 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:49:43] "GET / HTTP/1.1" 200 -
+2021-10-26 12:49:44,571 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:49:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:49:45,087 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:49:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:50:53,991 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:50:58,095 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:50:58] "GET / HTTP/1.1" 200 -
+2021-10-26 12:50:59,245 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:50:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:50:59,847 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 12:50:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:51:02,393 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 12:51:02] "GET / HTTP/1.1" 200 -
+2021-10-26 12:51:03,418 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 12:51:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:51:24,578 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Oct/2021 12:51:24] "GET / HTTP/1.1" 200 -
+2021-10-26 12:51:25,369 INFO werkzeug Thread-9 : 127.0.0.1 - - [26/Oct/2021 12:51:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:51:26,296 INFO werkzeug Thread-10 : 127.0.0.1 - - [26/Oct/2021 12:51:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-26 12:51:33,528 INFO werkzeug Thread-11 : 127.0.0.1 - - [26/Oct/2021 12:51:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:52:06,540 INFO werkzeug Thread-12 : 127.0.0.1 - - [26/Oct/2021 12:52:06] "GET / HTTP/1.1" 200 -
+2021-10-26 12:52:06,770 INFO werkzeug Thread-13 : 127.0.0.1 - - [26/Oct/2021 12:52:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:52:25,557 INFO werkzeug Thread-14 : 127.0.0.1 - - [26/Oct/2021 12:52:25] "GET / HTTP/1.1" 200 -
+2021-10-26 12:52:25,769 INFO werkzeug Thread-15 : 127.0.0.1 - - [26/Oct/2021 12:52:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:52:37,350 INFO werkzeug Thread-16 : 127.0.0.1 - - [26/Oct/2021 12:52:37] "GET / HTTP/1.1" 200 -
+2021-10-26 12:52:37,452 INFO werkzeug Thread-17 : 127.0.0.1 - - [26/Oct/2021 12:52:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:53:15,903 INFO werkzeug Thread-18 : 127.0.0.1 - - [26/Oct/2021 12:53:15] "GET / HTTP/1.1" 200 -
+2021-10-26 12:53:16,012 INFO werkzeug Thread-19 : 127.0.0.1 - - [26/Oct/2021 12:53:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:54:24,548 INFO werkzeug Thread-20 : 127.0.0.1 - - [26/Oct/2021 12:54:24] "GET / HTTP/1.1" 200 -
+2021-10-26 12:54:24,704 INFO werkzeug Thread-21 : 127.0.0.1 - - [26/Oct/2021 12:54:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:54:42,070 INFO werkzeug Thread-22 : 127.0.0.1 - - [26/Oct/2021 12:54:42] "GET / HTTP/1.1" 200 -
+2021-10-26 12:54:42,196 INFO werkzeug Thread-23 : 127.0.0.1 - - [26/Oct/2021 12:54:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:55:00,852 INFO werkzeug Thread-24 : 127.0.0.1 - - [26/Oct/2021 12:55:00] "GET / HTTP/1.1" 200 -
+2021-10-26 12:55:00,954 INFO werkzeug Thread-25 : 127.0.0.1 - - [26/Oct/2021 12:55:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:55:24,335 INFO werkzeug Thread-26 : 127.0.0.1 - - [26/Oct/2021 12:55:24] "GET / HTTP/1.1" 200 -
+2021-10-26 12:55:24,471 INFO werkzeug Thread-27 : 127.0.0.1 - - [26/Oct/2021 12:55:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:55:28,059 INFO werkzeug Thread-28 : 127.0.0.1 - - [26/Oct/2021 12:55:28] "GET / HTTP/1.1" 200 -
+2021-10-26 12:55:28,185 INFO werkzeug Thread-29 : 127.0.0.1 - - [26/Oct/2021 12:55:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:55:31,988 INFO werkzeug Thread-30 : 127.0.0.1 - - [26/Oct/2021 12:55:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:56:08,299 INFO werkzeug Thread-31 : 127.0.0.1 - - [26/Oct/2021 12:56:08] "GET / HTTP/1.1" 200 -
+2021-10-26 12:56:08,423 INFO werkzeug Thread-32 : 127.0.0.1 - - [26/Oct/2021 12:56:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:56:16,837 INFO werkzeug Thread-33 : 127.0.0.1 - - [26/Oct/2021 12:56:16] "GET / HTTP/1.1" 200 -
+2021-10-26 12:56:16,932 INFO werkzeug Thread-34 : 127.0.0.1 - - [26/Oct/2021 12:56:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 12:58:47,839 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-26 12:58:49,698 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Oct/2021 12:58:49] "GET / HTTP/1.1" 200 -
+2021-10-26 12:58:50,237 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Oct/2021 12:58:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:01:25,299 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Oct/2021 13:01:25] "GET / HTTP/1.1" 200 -
+2021-10-26 13:01:25,458 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Oct/2021 13:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:01:44,328 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Oct/2021 13:01:44] "GET / HTTP/1.1" 200 -
+2021-10-26 13:01:44,410 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Oct/2021 13:01:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:01:45,670 INFO werkzeug Thread-9 : 127.0.0.1 - - [26/Oct/2021 13:01:45] "GET / HTTP/1.1" 200 -
+2021-10-26 13:01:45,773 INFO werkzeug Thread-10 : 127.0.0.1 - - [26/Oct/2021 13:01:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:02:09,220 INFO werkzeug Thread-11 : 127.0.0.1 - - [26/Oct/2021 13:02:09] "GET / HTTP/1.1" 200 -
+2021-10-26 13:02:09,320 INFO werkzeug Thread-12 : 127.0.0.1 - - [26/Oct/2021 13:02:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:02:10,304 INFO werkzeug Thread-13 : 127.0.0.1 - - [26/Oct/2021 13:02:10] "GET / HTTP/1.1" 200 -
+2021-10-26 13:02:10,388 INFO werkzeug Thread-14 : 127.0.0.1 - - [26/Oct/2021 13:02:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:03:07,033 INFO werkzeug Thread-15 : 127.0.0.1 - - [26/Oct/2021 13:03:07] "GET / HTTP/1.1" 200 -
+2021-10-26 13:03:07,151 INFO werkzeug Thread-16 : 127.0.0.1 - - [26/Oct/2021 13:03:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:03:08,642 INFO werkzeug Thread-17 : 127.0.0.1 - - [26/Oct/2021 13:03:08] "GET / HTTP/1.1" 200 -
+2021-10-26 13:03:08,729 INFO werkzeug Thread-18 : 127.0.0.1 - - [26/Oct/2021 13:03:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:03:35,196 INFO werkzeug Thread-19 : 127.0.0.1 - - [26/Oct/2021 13:03:35] "GET / HTTP/1.1" 200 -
+2021-10-26 13:03:35,372 INFO werkzeug Thread-20 : 127.0.0.1 - - [26/Oct/2021 13:03:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:04:01,199 INFO werkzeug Thread-21 : 127.0.0.1 - - [26/Oct/2021 13:04:01] "GET / HTTP/1.1" 200 -
+2021-10-26 13:04:01,318 INFO werkzeug Thread-22 : 127.0.0.1 - - [26/Oct/2021 13:04:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:04:08,871 INFO werkzeug Thread-23 : 127.0.0.1 - - [26/Oct/2021 13:04:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-10-26 13:04:51,397 INFO werkzeug Thread-24 : 127.0.0.1 - - [26/Oct/2021 13:04:51] "GET / HTTP/1.1" 200 -
+2021-10-26 13:04:51,501 INFO werkzeug Thread-25 : 127.0.0.1 - - [26/Oct/2021 13:04:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
