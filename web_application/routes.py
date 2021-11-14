@@ -16,23 +16,33 @@ logging.basicConfig(filename='record.log', level=logging.DEBUG,
                     format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s '
                            f': %(message)s')
 
+g = None
+
 
 @app.route('/')
+def buffer():
+    return redirect(url_for('upload'))
+
+
 @app.route('/upload', methods=('GET', 'POST'))
 def upload():
     """Renders the home page."""
     # TODO: Make a proper home page and make it look pretty
     # TODO: Figure out how to display the CSV
+    global g
+
     if request.method == 'GET':
+        logging.debug("GET")
         return render_template('upload.html')
 
     if request.method == 'POST':
         if 'file' not in request.files:
-            flash('No file found')
+            logging.info("No file found")
             return redirect(request.url)
 
         file = request.files['file']
         if file.filename == '':
+            logging.info("No file uploaded")
             flash('No file uploaded')
             return redirect(request.url)
 
@@ -46,10 +56,15 @@ def upload():
                       mode='r+', encoding='utf-8') as upload_file:
                 data_file = parse_csv(upload_file)
 
-            return render_template('temp.html', columns=data_file)
+            g = data_file
+            return redirect(url_for('index'))
     return render_template('upload.html')
 
 
-@app.route('/temp', methods=('GET', 'POST'))
-def temp():
-    return render_template('temp.html')
+@app.route('/index', methods=('GET', 'POST'))
+def index():
+    global g
+
+    return render_template('index.html',
+                           columns=g.to_html(justify='justify-all',
+                                             classes='table table-striped'))

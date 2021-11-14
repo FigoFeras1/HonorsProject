@@ -1,9 +1,7 @@
 from typing import Any
 
-import numpy as np
-
 import numpy
-from web_application.errors import ColumnTypeOperationMismatch
+# from web_application.errors import ColumnTypeOperationMismatch
 
 __USER_ARRAY = numpy.ndarray
 
@@ -118,3 +116,7 @@ def get_unique_elements(column_name: str) -> numpy.ndarray:
 
     return numpy.unique(__USER_ARRAY[column_name],
                         return_index=True, return_counts=True)
+
+
+def sort(column_name :str) -> numpy.ndarray:
+    pass
