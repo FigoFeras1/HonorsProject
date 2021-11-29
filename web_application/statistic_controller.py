@@ -1,12 +1,14 @@
-from typing import Any
+import logging
+from typing import Type
 
 import numpy
-# from web_application.errors import ColumnTypeOperationMismatch
 
-__USER_ARRAY = numpy.ndarray
+from web_application.errors import ColumnTypeOperationMismatch
+
+__USER_ARRAY = numpy.recarray
 
 
-def init_array(input_array: numpy.ndarray) -> None:
+def init_array(input_array: numpy.recarray) -> None:
     """
     Initializes a global array to the array read from the CSV, then sets it so
     that it is read-only. This is done for efficiency and to avoid passing large
@@ -26,7 +28,7 @@ def sum_column(column_name) -> numpy.ndarray:
     :return: numpy.ndarray with the sum of the column or 0 for operation failed
     """
     float_arr = col_to_float(column_name)
-    return numpy.sum(float_arr) if float_arr else float_arr
+    return numpy.sum(float_arr) if float_arr is not None else float_arr
 
 
 def average_column(column_name) -> numpy.ndarray:
@@ -36,7 +38,7 @@ def average_column(column_name) -> numpy.ndarray:
     :return: numpy.ndarray with the average of the column or 0 for operation failed
     """
     float_arr = col_to_float(column_name)
-    return numpy.average(float_arr) if float_arr else float_arr
+    return numpy.average(float_arr) if float_arr is not None else float_arr
 
 
 def median_column(column_name) -> numpy.ndarray:
@@ -83,15 +85,7 @@ def max_occurrences(column_name) -> tuple:
     return max_names, max_value
 
 
-def foo(dataframe, column_name):
-    pass
-
-
-def bar(dataframe, column_name):
-    pass
-
-
-def col_to_float(column_name: str) -> float:
+def col_to_float(column_name: str) -> float | ColumnTypeOperationMismatch:
     """
     Attempts to convert column elements of global to float-type.
     If failed, -1 is returned. This is to prevent the application from crashing.
@@ -101,9 +95,9 @@ def col_to_float(column_name: str) -> float:
     global __USER_ARRAY
 
     try:
-        return __USER_ARRAY[column_name].astype(dtype=float, copy=False)
+        return __USER_ARRAY[column_name].astype(dtype=float, copy=True)
     except ValueError:
-        return 0
+        return ColumnTypeOperationMismatch()
 
 
 def get_unique_elements(column_name: str) -> numpy.ndarray:
@@ -118,5 +112,12 @@ def get_unique_elements(column_name: str) -> numpy.ndarray:
                         return_index=True, return_counts=True)
 
 
-def sort(column_name :str) -> numpy.ndarray:
+def sort(column_name: str) -> numpy.ndarray:
     pass
+
+
+operations = {'Sum': sum_column, 'Average': average_column,
+              'Median': median_column,
+              'Minimum Occurrences': min_occurrences,
+              'Maximum Occurrences': max_occurrences,
+              'Unique Elements': get_unique_elements}

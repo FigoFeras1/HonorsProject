@@ -2,9 +2,8 @@ import logging
 from typing import Union, TextIO
 
 import pandas
-import numpy
 
-from web_application import ALLOWED_EXTENSIONS
+from web_application import ALLOWED_EXTENSIONS, statistic_controller
 from web_application.statistic_controller import *
 
 logging.basicConfig(filename='record.log', level=logging.DEBUG,
@@ -45,7 +44,7 @@ def parse_csv(csv_file: Union[str, TextIO]) -> pandas.DataFrame:
     return dataframe
 
 
-def get_numpy_array(dataframe: pandas.DataFrame) -> numpy.ndarray:
+def get_numpy_array(dataframe: pandas.DataFrame) -> numpy.recarray:
     """
     Takes in a pandas DataFrame and converts it into a numpy structured ndarray,
     which allows elements to be accessible via their column name.
@@ -56,27 +55,24 @@ def get_numpy_array(dataframe: pandas.DataFrame) -> numpy.ndarray:
     for column_name in dataframe.columns:
         columns.append((column_name, 'U32'))
     columns = numpy.dtype(columns)
-    array = numpy.array(dataframe.to_records(index=False), dtype=columns)
+    array = dataframe.to_records(index=False)
     return array
-
-
-# TODO: Figure out if you should try and figure out if there are lists in the csv
-def find_list(list_contents: str):
-    pass
 
 
 def main():
     file_path = '.\\uploads\\upload_CSV_CarData.csv'
     data_array = parse_csv(file_path)
+    print(data_array)
     arr = get_numpy_array(data_array)
+    print(arr)
     # print(arr['VIN'][3])
     init_array(arr)
-    # arr_sum = sum_column('Value')
-    # print(arr_sum)
+    arr_sum = sum_column('VIN')
+    print(arr_sum)
     # arr_sum = average_column('Value')
     # print(arr_sum)
     # print(get_unique_elements('Make'))
-    print(max_occurrences('Make'))
+    # print(max_occurrences('Make'))
 
 
 if __name__ == '__main__':
