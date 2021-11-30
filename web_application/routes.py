@@ -24,8 +24,15 @@ logging.basicConfig(filename='record.log', level=logging.DEBUG,
 g = {}
 
 
-@app.route('/')
-def buffer():
+@app.route('/', methods=('GET', 'POST'))
+def webhook():
+    if request.method == 'POST':
+        repo = git.Repo('https://github.com/FigoFeras1/HonorsProject')
+        origin = repo.remotes.origin
+        origin.pull()
+        return 'Updated PythonAnywhere successfully', 200
+    else:
+        return 'Wrong event type', 400
     return redirect(url_for('upload'))
 
 

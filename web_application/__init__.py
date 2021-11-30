@@ -18,13 +18,5 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['POST'])
-def webhook():
-    if request.method == 'POST':
-        repo = git.Repo('https://github.com/FigoFeras1/HonorsProject')
-        origin = repo.remotes.origin
-        origin.pull()
-        return 'Updated PythonAnywhere successfully', 200
-    else:
-        return 'Wrong event type', 400
 
 from web_application import routes
