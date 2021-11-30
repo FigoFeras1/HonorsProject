@@ -59,6 +59,7 @@ def upload():
                 data_file = parse_csv(upload_file)
                 logging.debug(data_file)
                 json_dataframe = data_file.to_json()
+
             g['data_file'] = json_dataframe
             return redirect(url_for('index'))
         else:
