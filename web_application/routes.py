@@ -4,6 +4,7 @@ Routes and views for the flask application. Work in progress.
 
 import logging
 import os
+import git
 
 import numpy
 import pandas
