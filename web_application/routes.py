@@ -34,6 +34,10 @@ g = {}
 #     else:
 #         return redirect(url_for('upload'))
 
+@app.route('/')
+def buffer():
+    return redirect(url_for('upload'))
+
 
 @app.route('/upload', methods=('GET', 'POST'))
 def upload():
