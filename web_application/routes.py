@@ -32,8 +32,7 @@ def webhook():
         origin.pull()
         return 'Updated PythonAnywhere successfully', 200
     else:
-        return 'Wrong event type', 400
-    return redirect(url_for('upload'))
+        return redirect(url_for('upload'))
 
 
 @app.route('/upload', methods=('GET', 'POST'))
