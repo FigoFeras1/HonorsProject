@@ -17,6 +17,4 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST'])
-
 from web_application import routes
