@@ -14,6 +14,7 @@
 body, html {
     height: 100%;
     width: 100%;
+    font-size: 22px;
 }
 
 ::-webkit-file-upload-button {
@@ -66,4 +67,25 @@ select {
 
 .dropdown:hover .dropbtn {
     background-color: grey;
+}
+
+.row {
+    padding-left: 20px;
+}
+
+#buttonCol {
+    padding-right: 50px;
+}
+#back {
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+    width: fit-content;
+}
+
+#notTable {
+    padding-top: 20px;
+}
+
+#table {
 }

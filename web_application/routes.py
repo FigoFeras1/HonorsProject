@@ -59,8 +59,10 @@ def upload():
             with open(file=app.config['UPLOAD_FOLDER'] + new_filename,
                       mode='r+', encoding='utf-8') as upload_file:
                 data_file = parse_csv(upload_file)
+                logging.debug(data_file)
                 json_dataframe = data_file.to_json()
             session['data_file'] = json_dataframe
+            logging.debug(session['data_file'])
             return redirect(url_for('index'))
     return render_template('upload.html')
 
@@ -69,23 +71,31 @@ def upload():
 def index():
     error = False
     dataframe = pandas.read_json(session['data_file'])
+    column_names = dataframe.columns
+    logging.debug(column_names)
     if request.method == 'GET':
         return render_template('index.html', operations=operations,
-                               column_names=dataframe.columns,
+                               column_names=column_names,
                                file_html=dataframe.to_html(justify='justify-all',
-                                                           classes='table table-striped'))
+                                                           classes='table table-striped',
+                                                           index=False))
     if request.method == 'POST':
         operation = request.form.get('operation_menu')
         column_name = request.form.get('column_menu')
+        init_array(get_numpy_array(dataframe))
 
-        arr = get_numpy_array(dataframe)
-        init_array(arr)
         result = operations[operation](column_name)
-        if type(result) == ColumnTypeOperationMismatch:
+        if isinstance(result, ColumnTypeOperationMismatch):
             result.get_message(column_name=column_name, operation_name=operation)
             error = True
 
+        if isinstance(result, pandas.DataFrame):
+            dataframe = result
+            result = ''
+
         return render_template('index.html', operations=operations, error=error,
-                               column_names=dataframe.columns, result=result,
+                               chosen_operation=operation, chosen_column=column_name,
+                               column_names=column_names, result=result,
                                file_html=dataframe.to_html(justify='justify-all',
-                                                           classes='table table-striped'))
+                                                           classes='table table-striped',
+                                                           index=False))

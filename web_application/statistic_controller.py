@@ -2,6 +2,7 @@ import logging
 from typing import Type
 
 import numpy
+import pandas
 
 from web_application.errors import ColumnTypeOperationMismatch
 
@@ -21,37 +22,43 @@ def init_array(input_array: numpy.recarray) -> None:
     __USER_ARRAY.setflags(write=False, uic=False, align=False)
 
 
-def sum_column(column_name) -> numpy.ndarray:
+def sum_column(column_name) -> ColumnTypeOperationMismatch | str:
     """
     Returns the sum of the desired column
     :param column_name: Name of the column to sum
     :return: numpy.ndarray with the sum of the column or 0 for operation failed
     """
     float_arr = col_to_float(column_name)
-    return numpy.sum(float_arr) if float_arr is not None else float_arr
+    if isinstance(float_arr, ColumnTypeOperationMismatch):
+        return float_arr
+    return f"The Sum of Column '{column_name}' is: {numpy.sum(float_arr)}"
 
 
-def average_column(column_name) -> numpy.ndarray:
+def average_column(column_name) -> ColumnTypeOperationMismatch | str:
     """
     Returns the average of the desired column
     :param column_name: Name of the column to average
     :return: numpy.ndarray with the average of the column or 0 for operation failed
     """
     float_arr = col_to_float(column_name)
-    return numpy.average(float_arr) if float_arr is not None else float_arr
+    if isinstance(float_arr, ColumnTypeOperationMismatch):
+        return float_arr
+    return f"The Average of Column '{column_name}' is: {numpy.average(float_arr)}"
 
 
-def median_column(column_name) -> numpy.ndarray:
+def median_column(column_name) -> ColumnTypeOperationMismatch | str:
     """
     Returns the median of the desired column
     :param column_name: Name of the column to median
     :return: numpy.ndarray with the median of the column or 0 for operation failed
     """
     float_arr = col_to_float(column_name)
-    return numpy.median(float_arr) if float_arr else float_arr
+    if isinstance(float_arr, ColumnTypeOperationMismatch):
+        return float_arr
+    return f"The Median of Column '{column_name}' is: {numpy.median(float_arr)}"
 
 
-def min_occurrences(column_name) -> tuple:
+def min_occurrences(column_name) -> str:
     """
     Finds the elements that occur the least amount of times and the value
     :param column_name: name of the column to parse
@@ -65,10 +72,10 @@ def min_occurrences(column_name) -> tuple:
     for index in numpy.where(unique_values[2] == min_value):
         min_names = numpy.append(min_names, rows[index])
 
-    return min_names, min_value
+    return prettify((min_names, min_value), False)
 
 
-def max_occurrences(column_name) -> tuple:
+def max_occurrences(column_name) -> str:
     """
     Finds the elements that occur the most amount of times and the value
     :param column_name: name of the column to parse
@@ -81,8 +88,7 @@ def max_occurrences(column_name) -> tuple:
 
     for index in numpy.where(unique_values[2] == max_value):
         max_names = numpy.append(max_names, rows[index])
-
-    return max_names, max_value
+    return prettify((max_names, max_value), True)
 
 
 def col_to_float(column_name: str) -> float | ColumnTypeOperationMismatch:
@@ -112,12 +118,37 @@ def get_unique_elements(column_name: str) -> numpy.ndarray:
                         return_index=True, return_counts=True)
 
 
+def prettify(data: tuple, maximum: bool):
+    message = f"Maximum " if maximum else f"Minimum "
+
+    names, occurrences = data
+    return message + f"Number of Occurrences: {occurrences}." \
+                     f"<br>Data that occurs {occurrences} times: " \
+                     f"{', '.join([str(name) for name in names])} "
+
+
 def sort(column_name: str) -> numpy.ndarray:
-    pass
+    return numpy.sort(__USER_ARRAY[column_name])
+
+
+def sort_table_ascending(column_name: str):
+    dataframe = pandas.DataFrame(__USER_ARRAY)
+
+    return dataframe.sort_values(by=f'{column_name}', ascending=True,
+                                 kind='quicksort', na_position='last')
+
+def sort_table_descending(column_name: str):
+    dataframe = pandas.DataFrame(__USER_ARRAY)
+
+    return dataframe.sort_values(by=f'{column_name}', ascending=False,
+                                 kind='quicksort', na_position='last')
 
 
 operations = {'Sum': sum_column, 'Average': average_column,
               'Median': median_column,
               'Minimum Occurrences': min_occurrences,
               'Maximum Occurrences': max_occurrences,
-              'Unique Elements': get_unique_elements}
+              'Unique Elements': get_unique_elements,
+              'Sort': sort,
+              'Sort Table Ascending': sort_table_ascending,
+              'Sort Table Descending': sort_table_descending}

@@ -5,39 +5,63 @@
     <link rel="stylesheet" type="text/css" href="../static/style.css">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Analysis</title>
 </head>
 
     <body>
-        <div class="divScroll">
+        <div id="table" class="divScroll">
             {{ file_html|safe }}
         </div>
-        <div>
+        <div id="notTable" class="row">
+        <div class="col">
         <form action="index" method="POST">
-            <label style="font-size: 18px">
+            <label>
             Perform operation
             <select name="operation_menu">
                 {% for operation_name in operations %}
-                    <option value="{{ operation_name }}">{{ operation_name }}</option>
+                    {% if operation_name == chosen_operation %}
+                    <option value="{{ operation_name }}" selected>
+                        {{ operation_name }}
+                    </option>
+                    {% else %}
+                    <option value="{{ operation_name }}">
+                        {{ operation_name }}
+                    </option>
+                    {% endif %}
                 {% endfor %}
             </select>
             </label>
-            <label style="font-size: 18px">
+            <label>
             on column
-                <select name="column_menu">
+                <select name="column_menu" value={{ chosen_column }}>
                     {% for column_name in column_names %}
-                    <option value="{{ column_name }}">{{ column_name }}</option>
+                        {% if column_name == chosen_column %}
+                        <option value="{{ column_name }}" selected>
+                            {{ column_name }}
+                        </option>
+                        {% else %}
+                        <option value="{{ column_name }}">
+                            {{ column_name }}
+                        </option>
+                        {% endif %}
                     {% endfor %}
                 </select>
             </label>
-
-                <input class="btn btn-primary" type="submit" value="Submit">
+            <input id="submit" class="btn btn-primary" type="submit" value="Submit">
         </form>
-        {% if error %}
-            <p style="color: red; font-size: 18px">{{ result }}</p>
-        {% else %}
-            <p style="color: black; font-size: 18px">{{ result }}</p>
-        {% endif %}
         </div>
+            <div id="buttonCol" class="col">
+                <form action="{{ url_for('upload') }}">
+                    <button id="back" class="btn btn-primary" action="{{ url_for('upload') }}">
+                        Upload Another File
+                    </button>
+                </form>
+            </div>
+        </div>
+        {% if error %}
+            <p style="color: red; padding-left: 20px; align-self: center">{{ result|safe }}</p>
+        {% else %}
+            <p style="color: black; padding-left: 20px">{{ result|safe }}</p>
+        {% endif %}
     </body>
 </html>
