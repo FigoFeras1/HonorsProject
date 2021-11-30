@@ -63,7 +63,6 @@ def upload():
                 json_dataframe = data_file.to_json()
             # session['data_file'] = json_dataframe
             g['data_file'] = json_dataframe
-            logging.debug(session['data_file'])
             return redirect(url_for('index'))
         else:
             flash("File is not a CSV.")
