@@ -17,7 +17,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app = Flask(__name__)
 
 
-@app.route('/update_server', methods=['POST'])
+@app.route('/', methods=['POST'])
 def webhook():
     if request.method == 'POST':
         repo = git.Repo('https://github.com/FigoFeras1/HonorsProject')
