@@ -1,6 +1,3 @@
-import logging
-from typing import Type
-
 import numpy
 import pandas
 
@@ -91,7 +88,7 @@ def max_occurrences(column_name) -> str:
     return prettify((max_names, max_value), True)
 
 
-def col_to_float(column_name: str) -> float:
+def col_to_float(column_name: str) -> (float, ColumnTypeOperationMismatch):
     """
     Attempts to convert column elements of global to float-type.
     If failed, -1 is returned. This is to prevent the application from crashing.

@@ -4,9 +4,7 @@ Routes and views for the flask application. Work in progress.
 
 import logging
 import os
-import git
 
-import numpy
 import pandas
 from flask import render_template, request, redirect, url_for, flash, session
 from werkzeug.utils import secure_filename
@@ -24,16 +22,6 @@ logging.basicConfig(filename='record.log', level=logging.DEBUG,
 g = {}
 
 
-# @app.route('/', methods=('GET', 'POST'))
-# def webhook():
-#     if request.method == 'POST':
-#         repo = git.Repo('https://github.com/FigoFeras1/HonorsProject')
-#         origin = repo.remotes.origin
-#         origin.pull()
-#         return 'Updated PythonAnywhere successfully', 200
-#     else:
-#         return redirect(url_for('upload'))
-
 @app.route('/')
 def buffer():
     return redirect(url_for('upload'))
@@ -42,8 +30,6 @@ def buffer():
 @app.route('/upload', methods=('GET', 'POST'))
 def upload():
     """Renders the home page."""
-    # TODO: Make a proper home page and make it look pretty
-    # TODO: Figure out how to display the CSV
     global g
 
     if request.method == 'GET':
@@ -72,7 +58,6 @@ def upload():
                 data_file = parse_csv(upload_file)
                 logging.debug(data_file)
                 json_dataframe = data_file.to_json()
-            # session['data_file'] = json_dataframe
             g['data_file'] = json_dataframe
             return redirect(url_for('index'))
         else:
@@ -83,7 +68,6 @@ def upload():
 @app.route('/index', methods=('GET', 'POST'))
 def index():
     error = False
-    # dataframe = pandas.read_json(session['data_file'])
     dataframe = pandas.read_json(g['data_file'])
     column_names = dataframe.columns
     logging.debug(column_names)
