@@ -20,7 +20,7 @@ logging.basicConfig(filename='record.log', level=logging.DEBUG,
                     format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s '
                            f': %(message)s')
 
-g = None
+g = {}
 
 
 @app.route('/')
@@ -41,13 +41,13 @@ def upload():
 
     if request.method == 'POST':
         if 'file' not in request.files:
-            logging.info("No file found")
+            flash("No File Found.")
             return redirect(request.url)
 
         file = request.files['file']
         if file.filename == '':
             logging.info("No file uploaded")
-            flash('No file uploaded')
+            flash('No File Uploaded.')
             return redirect(request.url)
 
         if file and verify_file(file.filename):
@@ -61,16 +61,20 @@ def upload():
                 data_file = parse_csv(upload_file)
                 logging.debug(data_file)
                 json_dataframe = data_file.to_json()
-            session['data_file'] = json_dataframe
+            # session['data_file'] = json_dataframe
+            g['data_file'] = json_dataframe
             logging.debug(session['data_file'])
             return redirect(url_for('index'))
+        else:
+            flash("File is not a CSV.")
     return render_template('upload.html')
 
 
 @app.route('/index', methods=('GET', 'POST'))
 def index():
     error = False
-    dataframe = pandas.read_json(session['data_file'])
+    # dataframe = pandas.read_json(session['data_file'])
+    dataframe = pandas.read_json(g['data_file'])
     column_names = dataframe.columns
     logging.debug(column_names)
     if request.method == 'GET':

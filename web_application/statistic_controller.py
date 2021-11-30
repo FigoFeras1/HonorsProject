@@ -22,7 +22,7 @@ def init_array(input_array: numpy.recarray) -> None:
     __USER_ARRAY.setflags(write=False, uic=False, align=False)
 
 
-def sum_column(column_name) -> ColumnTypeOperationMismatch | str:
+def sum_column(column_name) -> (str, ColumnTypeOperationMismatch):
     """
     Returns the sum of the desired column
     :param column_name: Name of the column to sum
@@ -34,7 +34,7 @@ def sum_column(column_name) -> ColumnTypeOperationMismatch | str:
     return f"The Sum of Column '{column_name}' is: {numpy.sum(float_arr)}"
 
 
-def average_column(column_name) -> ColumnTypeOperationMismatch | str:
+def average_column(column_name) -> (str,  ColumnTypeOperationMismatch):
     """
     Returns the average of the desired column
     :param column_name: Name of the column to average
@@ -46,7 +46,7 @@ def average_column(column_name) -> ColumnTypeOperationMismatch | str:
     return f"The Average of Column '{column_name}' is: {numpy.average(float_arr)}"
 
 
-def median_column(column_name) -> ColumnTypeOperationMismatch | str:
+def median_column(column_name) -> (str, ColumnTypeOperationMismatch):
     """
     Returns the median of the desired column
     :param column_name: Name of the column to median
@@ -91,7 +91,7 @@ def max_occurrences(column_name) -> str:
     return prettify((max_names, max_value), True)
 
 
-def col_to_float(column_name: str) -> float | ColumnTypeOperationMismatch:
+def col_to_float(column_name: str) -> float:
     """
     Attempts to convert column elements of global to float-type.
     If failed, -1 is returned. This is to prevent the application from crashing.
@@ -136,6 +136,7 @@ def sort_table_ascending(column_name: str):
 
     return dataframe.sort_values(by=f'{column_name}', ascending=True,
                                  kind='quicksort', na_position='last')
+
 
 def sort_table_descending(column_name: str):
     dataframe = pandas.DataFrame(__USER_ARRAY)
