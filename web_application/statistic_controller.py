@@ -1,6 +1,3 @@
-import logging
-from typing import Type
-
 import numpy
 import pandas
 
@@ -91,7 +88,7 @@ def max_occurrences(column_name) -> str:
     return prettify((max_names, max_value), True)
 
 
-def col_to_float(column_name: str) -> float:
+def col_to_float(column_name: str) -> (float, ColumnTypeOperationMismatch):
     """
     Attempts to convert column elements of global to float-type.
     If failed, -1 is returned. This is to prevent the application from crashing.
@@ -145,7 +142,8 @@ def sort_table_descending(column_name: str):
                                  kind='quicksort', na_position='last')
 
 
-operations = {'Sum': sum_column, 'Average': average_column,
+operations = {'Sum': sum_column, 
+              'Average': average_column,
               'Median': median_column,
               'Minimum Occurrences': min_occurrences,
               'Maximum Occurrences': max_occurrences,

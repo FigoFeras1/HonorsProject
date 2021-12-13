@@ -4535,3 +4535,18 @@ pandas.errors.EmptyDataError: No columns to parse from file
 2021-11-29 20:23:35,678 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [29/Nov/2021 20:23:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2021-11-29 20:23:36,962 DEBUG root Thread-16 (process_request_thread) : GET
 2021-11-29 20:23:36,962 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [29/Nov/2021 20:23:36] "GET /upload HTTP/1.1" 200 -
+2021-11-29 22:41:47,573 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:43:28,909 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:46:07,478 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:47:24,593 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [29/Nov/2021 22:47:24] "[32mGET / HTTP/1.1[0m" 302 -
+2021-11-29 22:47:24,857 DEBUG root Thread-6 (process_request_thread) : GET
+2021-11-29 22:47:24,871 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [29/Nov/2021 22:47:24] "GET /upload HTTP/1.1" 200 -
+2021-11-29 22:47:25,003 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [29/Nov/2021 22:47:25] "GET /static/style.css HTTP/1.1" 200 -
+2021-11-29 22:47:25,686 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [29/Nov/2021 22:47:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-11-29 22:48:44,180 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:49:37,102 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:50:03,814 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:50:17,704 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:53:30,647 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:54:44,238 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-29 22:58:25,269 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

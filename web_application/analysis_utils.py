@@ -1,9 +1,7 @@
 import logging
 from typing import Union, TextIO
 
-import pandas
-
-from web_application import ALLOWED_EXTENSIONS, statistic_controller
+from web_application import ALLOWED_EXTENSIONS
 from web_application.statistic_controller import *
 
 logging.basicConfig(filename='record.log', level=logging.DEBUG,
@@ -30,7 +28,6 @@ def parse_csv(csv_file: Union[str, TextIO]) -> pandas.DataFrame:
 
     "Reading the csv file into a DataFrame object"
     dataframe = pandas.DataFrame(pandas.read_csv(csv_file))
-    # print(f"COLUMNS IN PARSE_CSV: {dataframe.columns.values}")
 
     """ 
     Drops all empty rows 
@@ -51,29 +48,4 @@ def get_numpy_array(dataframe: pandas.DataFrame) -> numpy.recarray:
     :param dataframe: DataFrame representation of the data.
     :return: Numpy structured array.
     """
-    columns = []
-    for column_name in dataframe.columns:
-        columns.append((column_name, 'U32'))
-    columns = numpy.dtype(columns)
-    array = dataframe.to_records(index=False)
-    return array
-
-
-def main():
-    file_path = '.\\uploads\\upload_CSV_CarData.csv'
-    data_array = parse_csv(file_path)
-    print(data_array)
-    arr = get_numpy_array(data_array)
-    print(arr)
-    # print(arr['VIN'][3])
-    init_array(arr)
-    arr_sum = sum_column('VIN')
-    print(arr_sum)
-    # arr_sum = average_column('Value')
-    # print(arr_sum)
-    # print(get_unique_elements('Make'))
-    # print(max_occurrences('Make'))
-
-
-if __name__ == '__main__':
-    main()
+    return dataframe.to_records(index=False)
