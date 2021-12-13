@@ -17,6 +17,11 @@ body, html {
     font-size: 22px;
 }
 
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
 ::-webkit-file-upload-button {
     display: none;
 }

@@ -142,7 +142,8 @@ def sort_table_descending(column_name: str):
                                  kind='quicksort', na_position='last')
 
 
-operations = {'Sum': sum_column, 'Average': average_column,
+operations = {'Sum': sum_column, 
+              'Average': average_column,
               'Median': median_column,
               'Minimum Occurrences': min_occurrences,
               'Maximum Occurrences': max_occurrences,
