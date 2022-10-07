@@ -4,8 +4,8 @@ To run the Flask app, the requirements are the following:<br>
 Python (3.10 preferred)<br>
 Flask, Pandas, Numpy, Logging and Typing modules installed (the latest versions preferred)
 
-## To use without downloading:
-[Click here](http://figoferas1.pythonanywhere.com/upload)
+## ~~To use without downloading:~~
+~~[Click here](http://figoferas1.pythonanywhere.com/upload)~~
 
 ## Install and run locally:
 1. Open terminal and change directory to ~/HonorsProject/ (/HonorsProject/web_application also works)
